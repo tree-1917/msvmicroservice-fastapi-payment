@@ -1,0 +1,48 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.cpython-*
+
+# Virtual environment
+myevn/
+pyvenv.cfg
+lib/
+lib64/
+
+# Node modules
+node_modules/
+inventory-frontend/node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python Egg files
+*.egg-info/
+dist/
+build/
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Generated binaries
+*.so
+
+# Ignore backups and temp files
+*.bak
+*~
+
+# Ignore environment variables or secret config files
+.env
+dev
